@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 // eslint-disable-next-line no-undef
 require('dotenv').config()
 
-const url = process.env.DATABASEURL
+const url = process.env.DATABASE_URL 
 
 mongoose.connect(url)
 // .then(result=>console.log('connected'))
